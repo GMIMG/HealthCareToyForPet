@@ -1,0 +1,149 @@
+//Linux 시간 수동변경
+sudo date -s "2018-03-10 00:00:00"
+// root 계정
+sudo -i
+
+//pyserial 설치
+sudo pip install pyserial
+
+//아두이노 시리얼통신 예제
+#include <SoftwareSerial.h>
+SoftwareSerial HC11(2, 3);
+void setup() 
+{
+  Serial.begin(9600);
+  HC11.begin(9600);
+}
+void loop()
+{
+  if (HC11.available()) {
+    Serial.write(HC11.read());
+  }
+  if (Serial.available()) {
+    HC11.write(Serial.read());
+  }
+}
+
+비동기(asynchronous) 통신이기 때문에 공유하는 Clock 이 없어서 통신하는 양쪽 기기의 속도를 동일하게 맞춰 주어야 한다. 동일하지 않아도 통신이 되는 경우가 있지만 의도하지 않은 데이터가 들어갈 경우가 있다. 
+Maximum 통신 속도는 Model 에 따라 다르며, 일반적으로 115,200bps 이다.
+
+
+//웹서버 설치 
+sudo apt install apache2 apache2-doc apache2-utils libapache2-mod-php php7.0 php-pear
+
+//MySQL 설치, phpmyadmin(MySQL DB편리하게 접속 툴)
+apt install php7.0-mysql mysql-server mysql-client phpmyadmin 
+//MySQLdb python모듈설치
+apt-get install python3-mysqldb
+// git 설치
+apt install git
+// python설치
+apt install build-essential python-dev python-openssl
+
+//테스트DB(pidb)생성, pi계정생성후 pidb접근권한설정
+sudo mysql -u root -h localhost -p
+//pidb라는 데이터베이스생성
+CREATE DATABSE pidb;
+//이름이 pi고 PW가 1234인 계정생성
+CREATE USER 'pi'@'localhost' IDENTIFIED BY '1234';
+//권한부여 
+GRANT ALL PRIVILEGES ON pidb.* TO 'pi'@'localhost';
+FLUSH PRIVILEGES;
+
+sudo nano /etc/apache2/apache2.conf
+에 추가하기
+Include /etc/phpmyadmin/apache.conf
+sudo /etc/init.d/apache2 restart
+
+
+#윈도우용 mysqldb와 파일경로
+https://pypi.python.org/pypi/mysqlclient
+C:\Users\JMLAPTOP\AppData\Local\Programs\Python\Python36\Scripts
+
+#sql문법
+https://opentutorials.org/course/2614/15110
+
+#외부아이피에 접속허용
+grant all privileges on *.* to 'user id'@'%' identified by 'password';
+flush privileges;
+/etc/init.d/mysql restart
+
+#root계정에서 chromium
+/etc/chromium-browser/default에서
+CHROMIUM_FLAG="--user-data-dir"
+수정
+
+
+
+
+
+
+
+
+
+
+#python 에서 gpio제어
+sudo apt-get install python-rpi.gpio
+
+#c++에서 gpio 제어 -> wiringpi설치
+sudo apt-get install wiringpi
+gpio -v
+gpio readall
+
+
+#서보모터 파이썬 예제
+import RPi.GPIO as GPIO
+import time
+ 
+pin = 18 # PWM pin num 18
+ 
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(pin, GPIO.OUT)
+p = GPIO.PWM(pin, 50)
+p.start(0)
+cnt = 0
+try:
+    while True:
+        p.ChangeDutyCycle(1)
+        print ("angle : 1")
+        time.sleep(1)
+        p.ChangeDutyCycle(5)
+        print ("angle : 5")
+        time.sleep(1)
+        p.ChangeDutyCycle(8)
+        print ("angle : 8")
+        time.sleep(1)
+except KeyboardInterrupt:
+    p.stop()
+GPIO.cleanup()
+
+
+
+
+
+#윈도우에서는 WAMP같은 서버프로그램 있어야 php 확인가능
+C:\Bitnami\wampstack-7.1.15-0\php\php.ini
+display_errors = On
+->오류확인
+opcache.enable=0
+->수정속도 향상
+
+
+#내가쓴 쿼리문
+INSERT INTO `sens` (`module`, `year`, `mon`, `day`, `hour`, `mini`, `sec`, `act`) VALUES ('1', '2018', '3', '12', '17', '30', '30', '50');
+SELECT hour, MAX(act) AS act FROM sens WHERE year=".(int)$year. " AND mon=" .(int)$mon. " AND day=".(int)$day." AND hour>=7 AND hour<=21 GROUP BY hour
+
+
+
+
+
+#Uart 설정
+#raspi-config 
+#serial interface off
+
+#sudo nano /boot/config.txt
+#modify enable_uart=1
+#restart
+#dmesg | grep tty
+stty -F /dev/ttyS0
+#UART란 비동기 시리얼 통신을 말한다 , baud rate -> 1초에 몇개의 신호가 전송되는가를 나타낸는 단위로 비동기식이기 때문에 두 프로세서간의 속도를 맞춰주어야한다.

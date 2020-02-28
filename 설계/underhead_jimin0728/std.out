@@ -1,0 +1,118 @@
+License request failed for feature
+
+Requesting PROE_LND ...
+C:\Users\JMLAPTOP\Documents\proe5.0\license.dat: (-8) Invalid (inconsistent) license key.
+
+Displaying status for license file: C:\Users\JMLAPTOP\Documents\proe5.0\license.dat
+License Server is UP: ðÅb
+
+  Warning (-3): No license server system for this feature.
+There is a license server manager/vendor daemon running, but it's for
+other vendors.
+Feature:       PROE_LND
+License path:  C:\Users\JMLAPTOP\Documents\proe5.0\license.dat;
+FLEXnet Licensing error:-3,278.  System Error: 22 "Invalid argument"
+For further information, refer to the FLEXnet Licensing End User Guide,
+available at "www.macrovision.com".
+
+                       License    In Use   Free   Version    Expire Date        SCN 
+                       -------    ------   ----   -------    -----------       -----
+                MATHCAD_IMPROC       Uncounted      14.1         None         Locked to: 18-5E-0F-37-49-D9
+              MATHCAD_DATAPACK       Uncounted      14.1         None         Locked to: 18-5E-0F-37-49-D9
+                MATHCAD_SIGNAL       Uncounted      14.1         None         Locked to: 18-5E-0F-37-49-D9
+              MATHCAD_WAVELETS       Uncounted      14.1         None         Locked to: 18-5E-0F-37-49-D9
+                      MECFATUI       Uncounted      31.0         None         Locked to: 18-5E-0F-37-49-D9
+                     MECFATENG       Uncounted      31.0         None         Locked to: 18-5E-0F-37-49-D9
+                Mecui_Advanced       Uncounted      31.0         None         Locked to: 18-5E-0F-37-49-D9
+               Meceng_Advanced       Uncounted      29.0         None         Locked to: 18-5E-0F-37-49-D9
+             Pro/MEC-Cus-Loads       Uncounted      31.0         None         Locked to: 18-5E-0F-37-49-D9
+                      PROE_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+          ILINK_CLIENT_License       Uncounted       3.4         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                       Mathcad       Uncounted      14.1         None       01042011 Locked to: 18-5E-0F-37-49-D9
+           MECBASICENG_License       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+            MECBASICUI_License       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+            RSDESIGNER_License       Uncounted       9.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+               VERICUT_License       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                   2DGS-OA_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                  ANIMATOR_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                       CDM_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                CDRSRENDER_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                   CONCEPT_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                  DESIGNER_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                    DS_MANAGER       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                    DS_SERVICE       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                   FLYTHRU_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                  ICEMAFFS_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                 ICEMCADDS_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                 ICEMCATIA_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                   ICEMDXF_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                   ICEMFFS_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                  ICEMIGES_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+               ICEMPLOTSRV_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                  ICEMSURF_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                    ICEMUG_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                   ICEMVDA_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+              ILINK_CLIENT_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+           ILINK_TK_ACCESS_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+               MECBASICENG_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                MECBASICUI_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                  MECEQRUN_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+               MECINTERFCE_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                 MECMOTENG_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                  MECMOTUI_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+               MECSTRUCENG_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                MECSTRUCUI_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+               MECTHERMENG_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                MECTHERMUI_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                MECTIREMOD_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                     MECUG_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+           MOCKUPCONVERTER_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                    MOCKUP_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                 MODELVIEW_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                    NCPOST_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                     PAINT_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                       PDM_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                 PROETRAIN_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                     PVIEW_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                    REFLEX_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                RSDESIGNER_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+             SSILINKCLIENT_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                   TMSINDA_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                   VERICUT_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                WEBPUBLISH_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+           Electro_Mech_Bundle       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                     NC_Bundle       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+            NC-Advanced_Bundle       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                 PIPING_Bundle       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+            Routed_Systems_SET       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+               Tool_Design_SET       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+          Struc_Simulation_SET       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+              NC_Machining_SET       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+          NC_Adv_Machining_SET       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+             NC_Sheetmetal_SET       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+          Comp-Aided_Verif_SET       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+       Behavioral_Modeling_SET       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+        Pro/EXPERT-MACHINE_SET       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+           Pro/NC-COMPLETE_SET       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+         Pro/NC-PRODUCTION_SET       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+         Pro/Mold_Designer_SET       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+        Pro/Mold_Machinist_SET       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+          Advanced_Surface_SET       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+         Advanced_Assembly_SET       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+        Behavioral_Modeler_SET       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+         Industrial_Design_SET       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+           Pro/InterfaceII_SET       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+           Advanced_Design_SET       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                   ISDO_II_SET       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                       EAS_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                EDACONDUIT_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+              EDACONNECTOR_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                 FLYPLUGIN_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                 FLYVIEWER_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                 INTERCOMM_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                     JLINK_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                PROPACKENG_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+                 PROPACKUI_LND       Uncounted      31.0         None       01042011 Locked to: 18-5E-0F-37-49-D9
+
+
+Exception - code was -1073741819.
